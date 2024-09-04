@@ -18,12 +18,12 @@ function _workflowArgs(a) {
     a.item,
     a.args,
     a.scope,
-    a?.scope.workflow,
-    a?.scope.options,
-    a?.scope.effect,
-    a?.scope.rolledItem,
-    a?.scope.macroItem,
-    a?.scope.midiData,
+    a.scope?.workflow,
+    a.scope?.options,
+    a.scope?.effect,
+    a.scope?.rolledItem,
+    a.scope?.macroItem,
+    a.scope?.midiData,
   ];
 }
 
