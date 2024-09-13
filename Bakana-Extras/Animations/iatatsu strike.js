@@ -3,7 +3,7 @@
 
 async function create(token, target, {deleteTarget, teleport, cameraFocus} = {deleteTarget: false, teleport: false, cameraFocus: true }) {
     const style = {
-        "fill": "#ffffff",
+        "fill": "0xFFFFFF",
         "fontFamily": "Helvetica",
         "fontSize": 106,
         "strokeThickness": 0,
@@ -55,8 +55,8 @@ async function create(token, target, {deleteTarget, teleport, cameraFocus} = {de
     .screenSpaceAnchor({ x: -1, y: -0.025 })
     .shape("rectangle", {
                 lineSize: 1,
-                lineColor: "#000000",
-                fillColor: "#000000",
+                lineColor: "0x000000",
+                fillColor: "0x000000",
                 width: 100,
                 height: 350, 
                 fillAlpha: 1,
@@ -76,8 +76,8 @@ async function create(token, target, {deleteTarget, teleport, cameraFocus} = {de
     .screenSpaceAnchor({ x: -1, y: 0.75 })
     .shape("rectangle", {
                 lineSize: 1,
-                lineColor: "#000000",
-                fillColor: "#000000",
+                lineColor: "0x000000",
+                fillColor: "0x000000",
                 width: 100,
                 height: 350, 
                 fillAlpha: 1,
@@ -189,8 +189,8 @@ async function create(token, target, {deleteTarget, teleport, cameraFocus} = {de
     .attachTo(target)
     .shape("polygon", {
                 lineSize: 1,
-                lineColor: "#FF0000",
-                fillColor: "#FF0000",
+                lineColor: "0xFF0000",
+                fillColor: "0xFF0000",
     points: [{ x: -1, y: -1},{ x: 1, y: 1},{ x: 1, y: -1} ],
                 fillAlpha: 1,
                 gridUnits: true,
@@ -210,8 +210,8 @@ async function create(token, target, {deleteTarget, teleport, cameraFocus} = {de
     .attachTo(target)
     .shape("polygon", {
                 lineSize: 1,
-                lineColor: "#FF0000",
-                fillColor: "#FF0000",
+                lineColor: "0xFF0000",
+                fillColor: "0xFF0000",
     points: [{ x: -1, y: -1},{ x: 1, y: 1},{ x: -1, y: 1} ],
                 fillAlpha: 1,
                 gridUnits: true,
